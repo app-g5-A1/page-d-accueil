@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    background-color: #FF2F45;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    margin-right: 15%;
+    justify-content: flex-start;
+    background-color: #FF2F45;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 5%;
+    margin-right: 10%;
+    cursor: pointer;
+}
+
+.connexion {
+    font-size: 35px;
+    font-weight: 500;
+    background-color: #FF2F45;
+}
+
+.recherche {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30%;
+    margin-left: 4%;
+    margin-right: 7%;
+    background-color: #FF2F45;  
+}
+.input {
+    width: 100%;
+    height: 40px;
+    border-radius: 50px;
+    border: 2px solid rgb(108, 107, 107);
+    background-image: url(./search.png);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 30px;
+    padding-right: 17px;
+    margin-left: 5%;
+}
+
+.header-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 20%;
+    margin-right: 1%;
+    background-color: #FF2F45;
+}
+
+.french-flag {
+     width: 45px;
+     height: 30px;
+     border: 1px solid black;
+     margin-right: 15%;
+     margin-left: 2%;
+     cursor: pointer;
+}
+
+img[alt="profile"]{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10%;
+    cursor: pointer;
+    background-color: #FF2F45;
+}
+
+.burger-menu {
+    transform: scaleX(-1);
+    width: 40px;
+    cursor: pointer;
+    background-color: #FF2F45;
+}
+
+.background {
+    background-color: #CCDDE7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+}
+
+.box {
+    display: b;
+    margin-top: 5%;
+    height: 400px;
+    width: 400px;
+    background-color: white;
+}
